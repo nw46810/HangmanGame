@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SW Hangman</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>STAR WARS HANGMAN</h1>    
+        </header>
+        <div id=game-over class="hidden outlineText">
+        <div>
+          <span>GAME OVER</span>
+        </div>
+        <div>
+          <span>press any key to play again</span>
+        </div>
+          
+        </div>
+        <div id="press-to-start" class="outlineText">
+            <div>
+            <span class="shadowText">You will never find a more wretched hive of scum and villainy</span>
+            </div>
+            <div>
+            <span class="outlineText">PRESS ANY KEY TO START</span>
+            </div>
+        </div>
+        <div id="table" class="hidden">
+            <table>
+              <tr id="wins">
+              </tr>
+              <tr id="guesses-left">
+              </tr>
+              <tr>
+                <th>CURRENT WORD</th>
+                <td id="character-name"></td>      
+              </tr>
+              <tr>
+                <th>LETTERS USED</th>
+                <td id="letters-used"></td>
+              </tr>
+              <tr>     
+                <th>HINT</th>   
+                <td id="hint"></td>
+              </tr>
+            </table>
+        </div>       
+    </div>
+
+<script type="text/javascript" src="assets/javascript/script.js"></script>
+</body>
+</html>

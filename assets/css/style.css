@@ -1,0 +1,123 @@
+@font-face {
+  	font-family: 'STARWARS';
+  	src: url("../fonts/STARWARS.ttf");
+}
+html,body{
+	background-color: black;
+	font-family: "STARWARS";
+	color: #ffd700;
+	text-align: center;
+	background-image: url("../images/sw-cantina.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	z-index: -1;
+	margin: 0;
+	height: 100%
+}
+header{
+	width: 100%;
+	height: 122px;
+	background-color: rgba(0,0,0,0.6);
+}
+header h1{
+  	font-size: 3em;
+  	line-height: 60px;
+  	padding: 30px;
+  	margin: 0 auto;
+  	color:#000;
+  	text-shadow:
+		-1px -1px 0 #ffd700,
+		1px -1px 0 #ffd700,
+		-1px 1px 0 #ffd700,
+		1px 1px 0 #ffd700;
+}
+table, th, td {
+    border-bottom: 1px solid #ffd700;
+    border-collapse: collapse;
+}
+th, td {
+  	padding: 20px;
+}
+#game-over{
+	position: relative;
+  	top: 30%;
+ 	width: 100%;
+  	height: 30%;
+ 
+}
+#game-over div{
+	width: 85%;
+ 	margin: 0 auto;
+  	padding: 2%;
+}
+#game-over span{
+	padding: 10px;
+	font-size: 2em;
+	line-height: 45px;
+	text-shadow: 3px 3px rgba(0,0,0,0.8);
+}
+.hidden{
+	display: none;
+}
+#character-name{
+	letter-spacing: 7px;
+}
+#press-to-start{
+ 	position: relative;
+ 	top: 30%;
+ 	width: 100%;
+ 	height: 30%;
+
+}
+#press-to-start span{
+	padding: 10px;
+	font-size: 2em;
+	line-height: 45px;
+	
+}
+#press-to-start div{
+	width: 85%;
+  	margin: 0 auto;
+  	padding: 2%;
+}
+#table{
+	width: 100%;
+	position: relative;
+	top: 20%;
+}
+table{
+	margin: 0 auto;
+	width: 70%;
+	background-color: rgba(0,0,0,0.7);
+}
+tr{
+	height: 10px;
+}
+td, th{
+	padding: 20px;
+	font-size: 24px;
+}
+.shadowText{
+	color:#ffd700;
+  	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+.outlineText{
+	color:#000;
+  	text-shadow:
+		-1px -1px 0 #ffd700,
+		1px -1px 0 #ffd700,
+		-1px 1px 0 #ffd700,
+		1px 1px 0 #ffd700;
+}
+.wrapper{
+	position: relative;
+	letter-spacing: 3px;
+	line-height: 22px;
+	width: 100%;
+	height: 100%;
+}
